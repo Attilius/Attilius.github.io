@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+ 
+ *{
+	 box-sizing: border-box; 
+ }
+ body{
+	 margin: 0;
+	 background: url('../pics/brown-background.jpg') fixed;
+	 font-family: 'Vast Shadow', cursive;
+ }
+ header{
+	 background: url('../pics/bears-header2.jpg');
+	 color: white;
+	 font-size: 80px;
+	 padding: 50px 0 100 50px;
+	 text-shadow: 0 0 20px rgb(0,0,0,.8);
+	 height: 250px;
+ }
+ .wrapper{
+	 max-width: 1300px;
+	 margin: 0 auto;
+ }
+ .content{
+	 background: url('../pics/dark-brown-texture.jpg');
+ }
+ .content::after, 
+ footer::after {
+  content: "";
+  clear: both;
+  display: table;
+ }
+ nav{
+	 width: 25%;
+	 float: left;
+ }
+ nav ul{
+	 margin: 0;
+	 padding: 30px;
+	 list-style: none;
+ }
+ nav ul li{
+	 border-bottom: 5px dotted NavajoWhite;
+	 padding: 10px 0;
+ }
+ nav a, .menu{
+	 color: NavajoWhite;
+	 padding: 15px 0;
+	 display: block;
+	 text-decoration: none;
+	 font-size: 20px;
+ }
+ nav a:hover{
+	 padding: 30px;
+	 background: rgba(255, 255, 255,.3);
+	 
+ }
+.menu:active{
+	 
+ }
+ main{
+	 width: 75%;
+	 background: NavajoWhite;
+	 float: right;
+	 padding: 20px;
+	 
+ }
+ main p{
+	 margin: 0;
+	 line-height: 22px;
+ }
+.float-right{
+	float: right;
+	padding: 0 0 20px 20px;
+}
+.float-left{
+	float: left;
+	padding: 20px 20px 0 0;
+}
+footer{
+	padding: 20px 0;
+	color: NavajoWhite;
+}
+footer a{
+	color: NavajoWhite;
+	text-decoration: none;
+}
+footer .left{
+	float: left;
+}
+footer .right{
+	float: right;
+}
+h1{
+	margin-bottom: 30;
+}
+h1 span{
+	font-size: 50px;
+	padding: 10px 20px 20px 20px;
+	background: url('../pics/dark-brown-texture.jpg');
+	color: AntiqueWhite;
+	-webkit-box-decoration-break: clone;
+	-o-box-decoration-break: clone;
+	box-decoration-break: clone;
+	line-height: 100px;
+}
+	
